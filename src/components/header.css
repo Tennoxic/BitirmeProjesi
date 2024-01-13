@@ -1,0 +1,52 @@
+body{ margin:0; font-family:'tahoma'}
+
+nav {
+    width: 100%;
+  display:inline-block;
+  background:lightslategrey;
+  height: 125px;
+}
+
+nav ul {
+  margin:0;padding:0; 
+  list-style-type:none;
+  display:inline-block;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  display:inline-block;
+}
+
+li > a:after { content: ''; }
+
+li > a:only-child::before { content: ''; }
+
+nav ul li a {
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+}
+
+nav ul li ul {
+  display:none;
+  position:absolute;
+  left:0;
+  background:lightslategrey;
+  float:left;
+}
+
+nav ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}

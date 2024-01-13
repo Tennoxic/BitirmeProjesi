@@ -1,0 +1,23 @@
+.imageDiv{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display:flex;
+}
+
+.image{
+    margin: auto;
+    width:1900px;
+    height: 855px;
+    object-fit: cover;
+}
+.yazi{
+    width: 1200px;
+    margin: auto;
+    display:flex;
+}
+.kucuk{
+    margin-left:1000px ;
+    width: 75px;
+    position: absolute;
+}
